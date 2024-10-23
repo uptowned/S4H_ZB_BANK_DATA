@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_SEARCH_UIBB" ConfId="ZBB_USMD_SEARCH_DQUERY_TEMPLATE" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="SEARCH" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <FEEDER>CL_USMD_SEARCH_GUIBB_DQUERY</FEEDER>
+     <RESULT_NUMBER_OF_VISIBLE_ROWS>10</RESULT_NUMBER_OF_VISIBLE_ROWS>
+     <GROUP_SAME_CRITERIA>X</GROUP_SAME_CRITERIA>
+     <ALLOW_PERSONALIZATION/>
+     <NUMBER_OF_QUERY_LINES/>
+     <EXCLUDE_CRITERIAS/>
+     <Node Name="ATTRIBUTES" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_000C297B6E841EEF9BF67DAA8975AB94</ELEMENT_ID>
+       <NAME>BANKA</NAME>
+       <INDEX>1</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR>GR_1</GROUP_ID_ATTR>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_000C297B6E841EEF9BF67DAA8975CB94</ELEMENT_ID>
+       <NAME>BANKS</NAME>
+       <INDEX>2</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR>GR_1</GROUP_ID_ATTR>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_000C297B6E841EEF9BF67DAA8975EB94</ELEMENT_ID>
+       <NAME>BNKA</NAME>
+       <INDEX>3</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR>GR_1</GROUP_ID_ATTR>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_000C297B6E841EEF9BF67DAA89760B94</ELEMENT_ID>
+       <NAME>BNKLZ</NAME>
+       <INDEX>4</INDEX>
+       <TEXT Transl="true"/>
+       <DEFAULT_OPERATOR/>
+       <GROUP_ID_ATTR>GR_1</GROUP_ID_ATTR>
+       <INPUT_PROMPT Transl="true"/>
+       <ENABLE_TOKENS/>
+       <SHLP_TEXTFIELD/>
+       <TOKEN_FORMAT/>
+       <ELEM_DDIC_SHLP/>
+      </Item>
+     </Node>
+     <Node Name="EXCLUDED_OPERATORS" SimpleFormat="true"/>
+     <Node Name="GLOBAL_SETTINGS" SimpleFormat="true"/>
+     <Node Name="PARAMETER" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <NAME Final="5 ">USMD_COMPONENT_NAME</NAME>
+       <VALUE>ZSP_ZB</VALUE>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <NAME Final="5 ">USMD_OBJECT_NAME</NAME>
+       <VALUE>DynamicQueryBNKA</VALUE>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <NAME Final="5 ">EXECUTION_MODE</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <NAME Final="5 ">SELECTION_MODE</NAME>
+       <VALUE>0</VALUE>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <NAME Final="5 ">SEARCH_PROVIDER</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000006" SimpleFormat="true">
+       <NAME Final="5 ">SEARCH_HELP</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000007" SimpleFormat="true">
+       <NAME Final="5 ">USMD_SEARCH_ALLOW_PERS</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000008" SimpleFormat="true">
+       <NAME Final="5 ">MORPH_DEFAULT_VISIBILITY</NAME>
+       <VALUE/>
+      </Item>
+      <Item Index="000009" SimpleFormat="true">
+       <NAME Final="5 ">MORPH_ENTRIES</NAME>
+       <VALUE>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA/&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</VALUE>
+      </Item>
+      <Item Index="000010" SimpleFormat="true">
+       <NAME Final="5 ">READ_MODE_PER_ACTION</NAME>
+       <VALUE>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA/&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</VALUE>
+      </Item>
+      <Item Index="000011" SimpleFormat="true">
+       <NAME Final="5 ">EVENT_EXCLUSION_PER_ACTION</NAME>
+       <VALUE>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA/&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</VALUE>
+      </Item>
+      <Item Index="000012" SimpleFormat="true">
+       <NAME Final="5 ">USMD_OTC</NAME>
+       <VALUE/>
+      </Item>
+     </Node>
+     <Node Name="PERSONALIZATION" SimpleFormat="true"/>
+     <Node Name="RESULT_GUIBB_LIST" SimpleFormat="true"/>
+     <Node Name="RESULT_TABLE" SimpleFormat="true"/>
+     <Node Name="SEARCH_GROUP" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ELEMENT_ID Final="5 ">_GENP_000C297B6E841EEF9BF67BA94FDB2B94</ELEMENT_ID>
+       <GROUP_ID>GR_1</GROUP_ID>
+       <INDEX>1</INDEX>
+       <GROUP_TITLE Transl="true">1</GROUP_TITLE>
+      </Item>
+     </Node>
+     <Node Name="SETTINGS" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <LOCATION_SAVED_SEARCHES>P</LOCATION_SAVED_SEARCHES>
+       <EXECUTE_SEARCH_ON_ENTER>X</EXECUTE_SEARCH_ON_ENTER>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>
